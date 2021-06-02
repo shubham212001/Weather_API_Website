@@ -1,0 +1,52 @@
+body{
+    background-color: burlywood;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#block{
+ font-size: 7ch;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-top: 0cm;
+ font-weight: 600;
+ background-color: bisque;
+ color: blue;
+ margin-bottom: 2cm;
+}
+#input{
+    margin-bottom: 8ch;
+}
+
+#in{
+    width: auto;
+    height: 1.2cm;
+    font-size: x-large;
+    background-color:coral;
+    margin-right: 2cm;
+    
+}
+#btn{
+
+    width: auto;
+    height:1.cm ;
+    font-size: x-large;
+    text-align: center;
+    background-color:cornflowerblue;
+    border-radius: 1cm;
+    color:brown;
+    cursor: pointer;
+    
+}
+
+#down{
+    color: blue;
+   font-size: 1.2cm;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(211, 197, 197);
+    width: max-fit
+;
+}
+
+
+
+
