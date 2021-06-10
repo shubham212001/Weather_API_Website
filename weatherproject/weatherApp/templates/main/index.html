@@ -8,8 +8,9 @@
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.3/cerulean/bootstrap.min.css"
     integrity="sha512-dQLT/B7byn2LjN/DN4zeBKpwGV6qbidV0XiMRWQOL7TGrV7FkZFldkGG+DGMU+CQnMTcRZlUI7GMWt1j6akNew=="
     crossorigin="anonymous" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.0.1/united/bootstrap.min.css" integrity="sha512-cEL1r+AubYmWyKw8n3Ro7sGPJgNige1zyODhz9NFdpBZGmO9o32lJwX/aC2o8EZX3fEbH40ba4v7kha1ud/vnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Weather Forecast Website </title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.0.1/united/bootstrap.min.css" integrity="sha512-cEL1r+AubYmWyKw8n3Ro7sGPJgNige1zyODhz9NFdpBZGmO9o32lJwX/aC2o8EZX3fEbH40ba4v7kha1ud/vnA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.0.1/lux/bootstrap.min.css" integrity="sha512-EJJuqC8nbI+dUjDM89eZ8dVmckG/vAfKIhmW4pi3Y/S1gE8uvIHuPqpbZ3/DliUQOZbS0Wp7317zoPRRoX+E+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather Forecast Website </title>
 </head>
 
 <body>
@@ -18,18 +19,18 @@
       <a href="../" class="navbar-brand">Weather Forecast <span style="color: rgb(39, 161, 110);"> <strong> - Django
             Framework</strong>
         </span> </a>
-      <!-- <a href="https://openweathermap.org" class="navbar-tech">OpenWeather - Get Your API</a> -->
+      <a href="https://openweathermap.org" class="navbar-tech"><span style="color: rgb(39, 161, 110);">OpenWeather - Get Your API</span></a>
     </div>
   </div>
 
-  <br /><br /> <br><br><br>
+  <br /><br /> <br><br><br><br>
   <div id="jumbotron" class="jumbotron" style="text-align: center; margin-top:-50px">
     <h1 class="display-5">Weather Forecast </h1>
-    <h5>Using Python Language and Django Framework</h5>
+    <!-- <h5>Using Python Language and Django Framework</h5> -->
 
     <img src="{% static 'images/weather.png' %}" class="image" style="width:100px; margin-bottom:-50px; ">
   </div>
-<br><br>
+<br><br><br>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <form method="post" class="col-md"">
       {% csrf_token %}
