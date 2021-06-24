@@ -27,6 +27,7 @@ def index(request):
 
         #Creating a dictionary which stores the data to be rendered on html page.
         data = {
+                "city":city,
                 "country_code": str(list_of_data['sys']['country']),
                 "coordinate": str(list_of_data['coord']['lon']) + ', '
                 + str(list_of_data['coord']['lat']),
@@ -38,6 +39,7 @@ def index(request):
                 'description': str(list_of_data['weather'][0]['description']),
                 'icon': list_of_data['weather'][0]['icon'],
             }
+        
         print(data)
     
     else:
