@@ -6,14 +6,16 @@
 
 
 ## Screenshots
-![Screenshot (1).png](https://github.com/suyash-9/Weather-Forecast-Website/blob/main/html/Screenshot%20(1).png)
+![S1.png](https://github.com/suyash-9/Weather-Forecast-Website/blob/main/images/S1.png)
 <br><br>
-![Screenshot (2).png](https://github.com/suyash-9/Weather-Forecast-Website/blob/main/html/Screenshot%20(2).png)
+![S2.png](https://github.com/suyash-9/Weather-Forecast-Website/blob/main/images/S2.png)
 <br><br>
-![Screenshot (3).png](https://github.com/suyash-9/Weather-Forecast-Website/blob/main/html/Screenshot%20(3).png)
+![S3.png](https://github.com/suyash-9/Weather-Forecast-Website/blob/main/images/S3.png)
 <br><br>
-![Screenshot (4).png](https://github.com/suyash-9/Weather-Forecast-Website/blob/main/html/Screenshot%20(4).png)
- 
+
+#### If an invalid city name is entered by a user or no input is given by user then following output is displayed 
+<br><br>
+![S4.png](https://github.com/suyash-9/Weather-Forecast-Website/blob/main/images/S4.png)
  
  
 
