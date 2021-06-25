@@ -2,6 +2,32 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)<br>
    [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
+## Overview
+This is an project based on displaying data retrieved using API call.
+The website is integrated with a search field and a button .
+The website displays the geographical details and weather of the entered city.
+The data is being pulled from the Open Weather server using an API Call.
+
+## Setting Up
+
+1.	Sign up for a free Open Weather Map account!
+2.	Once you've signed up, you're given an API key. 
+3.	http://api.openweathermap.org/data/2.5/weather?q=10025,us?units=imperial&appid= [PUT YOUR API KEY HERE]
+
+## Webpage Content And Working
+
+When the submit button is clicked:
+* A GET request should fetch the weather data from the API.
+* A POST submits the data in the backend .
+* The following data should be rendered on the page:
+  * City name
+  * Country Code
+  * Coordinates
+  * Current temperature
+  * Pressure 
+  * Humidity
+  * Short Description.
+
 
 
 
