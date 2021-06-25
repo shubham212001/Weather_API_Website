@@ -11,8 +11,9 @@ The data is being pulled from the Open Weather server using an API Call.
 ## Setting Up
 
 1.	Sign up for a free Open Weather Map account!
-2.	Once you've signed up, you're given an API key. 
-3.	http://api.openweathermap.org/data/2.5/weather?q=10025,us?units=imperial&appid= [PUT YOUR API KEY HERE]
+2.	Access the API here- https://openweathermap.org/
+3.	Once you've signed up, you're given an API key. 
+4.	http://api.openweathermap.org/data/2.5/weather?q=10025,us?units=imperial&appid= [PUT YOUR API KEY HERE]
 
 ## Webpage Content And Working
 
