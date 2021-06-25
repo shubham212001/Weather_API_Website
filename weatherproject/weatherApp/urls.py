@@ -15,12 +15,16 @@ Including another URLconf
 
 
 """
+
+
 # To include an element in urlpatterns path funtion needs to be imported from django.urls 
 from django.urls import path
+
 
 #To import views from current directory
 from . import views
 
+#To map the view with URL pattern
 urlpatterns= [
     path('',views.index) ,
 

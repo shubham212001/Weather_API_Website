@@ -20,10 +20,8 @@ To interact with file system os module needs to be imported
     Command - 
         import os
 
-To work with app the weatherApp needs to be included 
-    In the INSTALLED_APPS definition include 'weatherApp'
-
 """
+
 
 from pathlib import Path
 import os
@@ -43,6 +41,14 @@ SECRET_KEY = '@vui4#0&y=28b3zs(urz*b_r0f=9%9r0le3q752*jd_s_a1g&z'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+
+"""
+
+To work with app the weatherApp needs to be included 
+    In the INSTALLED_APPS definition include 'weatherApp'
+
+"""
 
 
 # Application definition
@@ -142,8 +148,12 @@ STATIC_URL = '/static/'
 # To access the media files stored in images folder inside static folder
 MEDIA_URL = '/images/'  
 
-"""  In order to notify Django of our new top-level static folder, 
-we must add a configuration for STATICFILES_DIRS telling Django to look within a static folder."""
+"""  
+
+In order to notify Django of our new top-level static folder, 
+we must add a configuration for STATICFILES_DIRS telling Django to look within a static folder.
+
+"""
 STATICFILES_DIRS=(
     os.path.join(BASE_DIR,'static'),
 )
