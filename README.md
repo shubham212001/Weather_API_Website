@@ -44,7 +44,12 @@ When the submit button is clicked:
 <br><br>
 ![S4.png](https://github.com/suyash-9/Weather-Forecast-Website/blob/main/images/S4.png)
  
- 
+
+## Contributors
+* Suyash Sinha
+* Shubham Sharma
+* Rahul Shukla
+<br>
 
 ## Installation
 ### Prerequisites
